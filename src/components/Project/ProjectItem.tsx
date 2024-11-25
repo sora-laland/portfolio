@@ -15,6 +15,7 @@ const ProjectItem = ({
   stack,
   markdown,
   imgSrc,
+  screenshotImg,
 }: ProjectProps) => {
   return (
     <div className="flex flex-col md:flex-row gap-2 md:gap-0">
@@ -55,6 +56,14 @@ const ProjectItem = ({
           </div>
         </div>
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
+        {screenshotImg && (
+          <Image
+            src={require(`@/assets/images/screenshot/${screenshotImg}`)}
+            width="600"
+            // height="auto"
+            alt={name}
+          />
+        )}
       </div>
     </div>
   );

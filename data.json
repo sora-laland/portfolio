@@ -1,107 +1,97 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "portfolio"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "이소라",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "pineapple223663@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/sora-laland" }
     ]
   },
 
-  "workExperience": [
-    {
-      "id": 0,
-      "name": "커피프린스 1호점",
-      "position": "Front-end Engineer",
-      "period": ["2019. 01", "2019. 09"]
-    },
-    {
-      "id": 1,
-      "name": "커피프린스 2호점",
-      "position": "바리스타",
-      "period": ["2022. 01", "now"]
-    }
-  ],
+  "workExperience": [],
 
   "project": [
     {
       "id": 0,
-      "name": "첫번째 팀 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
-      "isTeam": true,
-      "period": ["2022. 07", "2022. 09"],
-      "stack": ["사용한 기술을 적어주세요", "React.js", "JavaScript", "styled-components", "Recoil"]
+      "name": "CinemaScope",
+      "description": "사용자 취향을 기반으로 영화를 추천하는 서비스입니다.\n사용자는 영화로 자신의 취향을 나타내고 소통할 수 있도록 했습니다.",
+      "webUrl": "https://github.com/mauercho/cinema_scope",
+      "repoUrl": "https://github.com/mauercho/cinema_scope",
+      "isTeam": false,
+      "period": ["2024. 05", "2024. 05"],
+      "stack": ["Django", "Python", "Vue.js", "JavaScript", "HTML/CSS"],
+      "screenshotImg": "cinemascope.jpg"
     },
     {
       "id": 1,
-      "name": "첫번째 개인 프로젝트",
-      "description": "프로젝트에 대한 간단한 설명을 적을 수 있습니다. 어떤 프로젝트인지 주제나 강조하고 싶은 부분을 적어보세요.",
-      "webUrl": "https://github.com/sjoleee/",
-      "repoUrl": "https://github.com/sjoleee/",
-      "isTeam": false,
-      "period": ["2022. 10", "2022. 11"],
-      "stack": ["JavaScript", "HTML/CSS"]
+      "name": "치킨스톡",
+      "description": "주식에 익숙하지 않은 유저들에게 실시간 모의 투자 랭킹 서비스를 제공하는 프로젝트입니다.\n사용자는 가상 자산으로 다양한 주식에 투자하고, 자신의 투자 성과를 다른 사용자와 비교하며 경쟁할 수 있습니다.",
+      "webUrl": "https://github.com/ChickenStock-2024/FrontEnd",
+      "repoUrl": "https://github.com/ChickenStock-2024/FrontEnd",
+      "isTeam": true,
+      "period": ["2024. 07", "2024. 08"],
+      "stack": ["React.js", "JavaScript", "Tailwind CSS", "Zustand", "React-Echart"],
+      "screenshotImg": "chickenstock.png"
+    },
+    {
+      "id": 2,
+      "name": "Finally",
+      "description": "청년들을 위한 카드·정책 추천 서비스입니다. 마이데이터 기반의 서비스로 청년들에게 맞춤 정책과 카드를 추천합니다.",
+      "webUrl": "https://github.com/a305finally/finally",
+      "repoUrl": "https://github.com/a305finally/finally",
+      "isTeam": true,
+      "period": ["2024. 09", "2024. 10"],
+      "stack": ["React.js", "TypeScript", "Tailwind CSS", "Zustand", "React-Query"],
+      "screenshotImg": "finally.png"
+    },
+    {
+      "id": 3,
+      "name": "Fit-a-Pet",
+      "description": "사용자의 헬스데이터로 펫을 키워 바른 건강 습관을 형성하도록 하는 서비스입니다. ",
+      "webUrl": "https://lab.ssafy.com/s11-final/S11P31A603",
+      "repoUrl": "https://lab.ssafy.com/s11-final/S11P31A603",
+      "isTeam": true,
+      "period": ["2024. 10", "2024. 11"],
+      "stack": ["React-Native", "JavaScript", "Zustand", "React-Query", "RN-health-connect"],
+      "screenshotImg": "fitapet.png"
     }
   ],
 
   "activity": [
     {
       "id": 0,
-      "name": "첫번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "첫번째 활동에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 활동",
-      "period": ["2022. 06", "2022. 08"],
-      "description": "두번째 활동에 대한 간략한 설명"
+      "name": "삼성청년SW아카데미 11기",
+      "period": ["2024. 01", "2024. 12"],
+      "description": "Python, JavaScript, React, DB에 관한 학습"
     }
   ],
 
   "education": [
     {
       "id": 0,
-      "name": "첫번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "첫번째 교육에 대한 간략한 설명"
-    },
-    {
-      "id": 1,
-      "name": "두번째 교육",
-      "period": ["2013. 02", "2020. 02"],
-      "description": "두번째 교육에 대한 간략한 설명"
+      "name": "oo대학교",
+      "period": ["2014. 03", "2020. 02"],
+      "description": "응용통계학과 졸업"
     }
   ],
 
   "certificate": [
     {
       "id": 0,
-      "name": "TOEIC 1000점",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "데이터분석준전문가",
+      "date": "2023. 09",
+      "organizer": "한국데이터산업진흥원"
     },
     {
       "id": 1,
-      "name": "OPIC IH",
-      "date": "2019. 07. 28",
-      "organizer": "ETS"
+      "name": "SQL 개발자",
+      "date": "2024. 06",
+      "organizer": "한국데이터산업진흥원"
     }
   ],
 
-  "award": [
-    {
-      "id": 0,
-      "name": "첫번째 수상",
-      "date": "2019. 07. 28",
-      "organizer": "수여기관",
-      "description": "첫번째 수상에 대한 간략한 설명"
-    }
-  ]
+  "award": []
 }

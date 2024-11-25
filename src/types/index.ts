@@ -26,6 +26,7 @@ export interface ProjectProps {
   stack: string[];
   markdown?: string;
   imgSrc?: string;
+  screenshotImg?: string;
 }
 
 export interface AwardProps {

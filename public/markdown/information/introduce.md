@@ -1,7 +1,3 @@
-- Hoo-ooh-ooh-ooh
-- Hoo-ooh-ooh-ooh
-- Stay in the middle
-- Like you a little
-- Don't want no riddle
-- 말해줘 say it back, oh, say it ditto
-- 아침은 너무 멀어 so say it ditto
+- **사용자**에게 더 나은 경험을 제공하는 UX/UI에 관심이 많습니다.
+- 팀원들과 잘 **소통**하며, 맡은 일은 끝까지 **책임감** 있게 해내려고 노력합니다.
+- **좋은 코드를 작성**하면서도 제품이 주는 가치를 놓치지 않는 개발자가 되고 싶습니다.
