@@ -13,6 +13,9 @@ const nextConfig = {
     });
     return config;
   },
+  images: {
+    domains: [], // 외부 이미지 도메인 설정 (내부 파일은 설정 불필요)
+  },
 };
 
 module.exports = nextConfig;
