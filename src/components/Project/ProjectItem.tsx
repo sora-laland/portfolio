@@ -12,6 +12,7 @@ const ProjectItem = ({
   repoUrl,
   webUrl,
   period,
+  detail,
   stack,
   markdown,
   imgSrc,
@@ -30,12 +31,15 @@ const ProjectItem = ({
               className="object-cover rounded-lg border-[1px] border-GRAY_LIGHT dark:border-white border-solid w-24 h-24"
             />
           )}
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-4">
             <div className="w-48">
               <h3>{name}</h3>
               <div className="flex flex-col">
-                <span>{`${period[0]} - ${period[1]}`}</span>
+                <span>
+                  {`${period[0]} - ${period[1]}`}, {period[2]}
+                </span>
               </div>
+              <span>{detail}</span>
             </div>
             <Links repoUrl={repoUrl} webUrl={webUrl} />
           </div>
@@ -55,15 +59,14 @@ const ProjectItem = ({
             ))}
           </div>
         </div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
         {screenshotImg && (
           <Image
             src={require(`@/assets/images/screenshot/${screenshotImg}`)}
             width="600"
-            // height="auto"
             alt={name}
           />
         )}
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdown ?? ""}</ReactMarkdown>
       </div>
     </div>
   );

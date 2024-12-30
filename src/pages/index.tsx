@@ -32,11 +32,11 @@ const Home: NextPage<DataProps> = ({
       <Layout>
         <Information information={information} />
         <Skills />
+        <Project project={project} />
         <Certificate certificate={certificate} />
         <Education education={education} />
         <Activity activity={activity} />
         <Award award={award} />
-        <Project project={project} />
       </Layout>
       <Footer contact={information.contact} name={information.name} />
     </>

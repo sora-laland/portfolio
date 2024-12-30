@@ -22,8 +22,7 @@
       "repoUrl": "https://github.com/mauercho/cinema_scope",
       "isTeam": false,
       "period": ["2024. 05", "2024. 05"],
-      "stack": ["Django", "Python", "Vue.js", "JavaScript", "HTML/CSS"],
-      "screenshotImg": "cinemascope.jpg"
+      "stack": ["Django", "Python", "Vue.js", "JavaScript", "HTML/CSS"]
     },
     {
       "id": 1,
@@ -32,7 +31,8 @@
       "webUrl": "https://github.com/ChickenStock-2024/FrontEnd",
       "repoUrl": "https://github.com/ChickenStock-2024/FrontEnd",
       "isTeam": true,
-      "period": ["2024. 07", "2024. 08"],
+      "period": ["2024. 07", "2024. 08", "7주"],
+      "detail": "6인",
       "stack": ["React.js", "JavaScript", "Tailwind CSS", "Zustand", "React-Echart"],
       "screenshotImg": "chickenstock.png"
     },
@@ -43,7 +43,8 @@
       "webUrl": "https://github.com/a305finally/finally",
       "repoUrl": "https://github.com/a305finally/finally",
       "isTeam": true,
-      "period": ["2024. 09", "2024. 10"],
+      "period": ["2024. 09", "2024. 10", "7주"],
+      "detail": "6인",
       "stack": ["React.js", "TypeScript", "Tailwind CSS", "Zustand", "React-Query"],
       "screenshotImg": "finally.png"
     },
@@ -54,7 +55,8 @@
       "webUrl": "https://lab.ssafy.com/s11-final/S11P31A603",
       "repoUrl": "https://lab.ssafy.com/s11-final/S11P31A603",
       "isTeam": true,
-      "period": ["2024. 10", "2024. 11"],
+      "period": ["2024. 10", "2024. 11", "6주"],
+      "detail": "6인",
       "stack": ["React-Native", "JavaScript", "Zustand", "React-Query", "RN-health-connect"],
       "screenshotImg": "fitapet.png"
     }
@@ -65,7 +67,7 @@
       "id": 0,
       "name": "삼성청년SW아카데미 11기",
       "period": ["2024. 01", "2024. 12"],
-      "description": "Python, JavaScript, React, DB에 관한 학습"
+      "description": "Python, JavaScript, React, DB에 관한 학습 및 실무기반의 프로젝트"
     }
   ],
 
@@ -100,6 +102,13 @@
       "date": "2024. 05. 27",
       "organizer": "삼성전자",
       "description": "800시간 교육과정 우수 수료"
+    },
+    {
+      "id": 1,
+      "name": "SSAFY 11기 우수프로젝트상",
+      "date": "2024. 11. 29",
+      "organizer": "삼성전자",
+      "description": "자율 프로젝트 우수팀으로 선정"
     }
   ]
 }

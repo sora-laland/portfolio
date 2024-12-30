@@ -23,6 +23,7 @@ export interface ProjectProps {
   webUrl?: string;
   isTeam?: boolean;
   period: string[];
+  detail?: string;
   stack: string[];
   markdown?: string;
   imgSrc?: string;
